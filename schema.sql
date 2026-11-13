@@ -51,9 +51,9 @@ CREATE TABLE results (
 INSERT INTO users (username, password, full_name, role) VALUES
 ('Admin_Armaan', 'admin123', 'Armaan', 'ADMIN'),
 ('Achint', 'user123', 'Achint', 'USER'),
-('Vansh', 'user123', 'Vansh', 'USER'),
+('Vansh', 'user123', 'Ayush', 'USER'),
 ('Jitwar', 'user123', 'Jitwar', 'USER'),
-('Lakshika', 'user123', 'Lakshika', 'USER');
+('BAUNNI', 'user123', 'Lakshika', 'USER');
 
 -- Seed Sample Quiz Questions
 INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option) VALUES

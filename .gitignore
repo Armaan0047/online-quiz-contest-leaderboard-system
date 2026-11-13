@@ -16,3 +16,9 @@ mariadb.zip
 .DS_Store
 Thumbs.db
 capture.ps1
+
+# Local report & viva generator tools
+*.pdf
+*.docx
+build_*.py
+generate_*.py

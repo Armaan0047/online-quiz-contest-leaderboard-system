@@ -11,10 +11,10 @@ import java.sql.SQLException;
 public class DBConnection {
 
     // Database Connection Credentials
-    // Update USER and PASSWORD according to your local MySQL database setup
+    // Local MySQL database setup
     private static final String URL = "jdbc:mysql://localhost:3306/quiz_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
+    private static final String PASSWORD = "root"; // Working password for local MySQL / MariaDB server
 
     static {
         try {

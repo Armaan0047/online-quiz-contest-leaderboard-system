@@ -204,15 +204,19 @@ To add the JDBC driver dependency in IntelliJ IDEA:
 
 ## How to Run
 
+### Option 1: Quick 1-Click Run (Windows)
+Double-click `run.bat` in the project root directory. It automatically ensures the database server is running, compiles the Java source files, and launches the application.
+
+### Option 2: IntelliJ IDEA
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/USERNAME/online-quiz-contest-leaderboard-system.git
+   git clone https://github.com/Armaan0047/online-quiz-contest-leaderboard-system.git
    ```
 2. Open the project folder in **IntelliJ IDEA**.
 3. Configure the JDK under **File -> Project Structure -> Project SDK**.
 4. Add the MySQL Connector/J JAR as described above.
 5. Execute `schema.sql` in MySQL.
-6. Set your local MySQL password in `src/database/DBConnection.java`.
+6. Verify your local MySQL password in `src/database/DBConnection.java`.
 7. Run `src/Main.java`.
 
 ---
@@ -225,9 +229,9 @@ The `schema.sql` script pre-seeds the database with demo accounts:
 | :--- | :--- | :--- | :--- |
 | **ADMIN** | `Admin_Armaan` | `admin123` | Armaan |
 | **STUDENT** | `Achint` | `user123` | Achint |
-| **STUDENT** | `Vansh` | `user123` | Vansh |
+| **STUDENT** | `Vansh` | `user123` | Ayush |
 | **STUDENT** | `Jitwar` | `user123` | Jitwar |
-| **STUDENT** | `Lakshika` | `user123` | Lakshika |
+| **STUDENT** | `BAUNNI` | `user123` | Lakshika |
 
 ---
 
